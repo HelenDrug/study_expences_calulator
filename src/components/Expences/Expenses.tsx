@@ -1,7 +1,7 @@
 import { ExpenseItem } from "./ExpenseItem.tsx";
 import "./Expenses.css"
 import type { Expense } from "../../data.ts";
-import { Card } from "../views/Card.tsx";
+import { Card } from "../ui/Card.tsx";
 
 interface ExpensesProps {
     expenses: Expense[];
