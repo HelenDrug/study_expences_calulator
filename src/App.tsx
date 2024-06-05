@@ -4,6 +4,7 @@ import { Concepts } from "./react-key-concepts/components/concepts/Concepts.tsx"
 import { concepts } from "./react-key-concepts/data/concepts.ts";*/
 import Expenses from "./components/Expences/Expenses.tsx";
 import { expenses } from "./data.ts";
+import { AddExpense } from "./components/Expences/AddExpense/AddExpense.tsx";
 
 function App() {
    /* const alt = "Medal badge with a star";
@@ -11,7 +12,7 @@ function App() {
     const description = "Selected key React concepts you should know about";*/
     return (
         <div>
-             <h2>Let's get started!</h2>
+             <AddExpense/>
             <Expenses expenses={expenses}></Expenses>
           {/*  <Header image={keyConceptsImage} alt={alt} title={title} description={description}/>
             <Concepts concepts={concepts}/>*/}

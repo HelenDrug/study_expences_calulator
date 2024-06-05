@@ -3,7 +3,7 @@ import { AddExpenseForm } from "./AddExpenseForm.tsx";
 
 export function AddExpense() {
     return (
-        <div>
+        <div className={"add-expense"}>
            <AddExpenseForm/>
         </div>
     );
