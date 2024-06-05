@@ -1,9 +1,5 @@
-export interface Expense {
-    id: string;
-    title: string;
-    amount: number;
-    date: Date;
-}
+import type { Expense } from "@this/components/Expenses/interfaces.ts";
+
 
 export const expenses: Expense[] = [
     {id: 'e1', title: 'Toilet Paper', amount: 94.12, date: new Date(2022, 7, 14)},

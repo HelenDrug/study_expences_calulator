@@ -2,19 +2,20 @@
 import { Header } from "./react-key-concepts/components/ui/Header.tsx";
 import { Concepts } from "./react-key-concepts/components/concepts/Concepts.tsx";
 import { concepts } from "./react-key-concepts/data/concepts.ts";*/
-import Expenses from "./components/Expences/Expenses.tsx";
-import { expenses } from "./data.ts";
-import { AddExpense } from "./components/Expences/AddExpense/AddExpense.tsx";
+
+import { AddExpense } from "./components/Expenses/AddExpense/AddExpense.tsx";
+import Expenses from "./components/Expenses/Expenses.tsx";
+import { expenses } from "./components/Expenses/data.ts";
 
 function App() {
-   /* const alt = "Medal badge with a star";
-    const title = "Key React Concepts";
-    const description = "Selected key React concepts you should know about";*/
+    /* const alt = "Medal badge with a star";
+     const title = "Key React Concepts";
+     const description = "Selected key React concepts you should know about";*/
     return (
         <div>
-             <AddExpense/>
+            <AddExpense/>
             <Expenses expenses={expenses}></Expenses>
-          {/*  <Header image={keyConceptsImage} alt={alt} title={title} description={description}/>
+            {/*  <Header image={keyConceptsImage} alt={alt} title={title} description={description}/>
             <Concepts concepts={concepts}/>*/}
         </div>
     );
